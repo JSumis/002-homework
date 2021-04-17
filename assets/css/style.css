@@ -1,0 +1,185 @@
+/* Default uses a border box, no padding, and no margin. */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+  }
+/* Everything in body has background color of white. */
+body {
+    background-color: #d9dcd6;
+}
+
+/* In header class element: Pads content 20 pixels from header's border, prioritizes font based on browser prefences, sets background color to blue,
+ and sets color to white. */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #470202;
+    color: #ffffff;
+}
+
+/* For h1 headers within class header: sets display property to inline block, and font-size to 48 pixels. */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* In class seo in header1 in class headers: sets color to white. */
+.header h1 .seo {
+    color: #eaeee5;
+}
+
+/* In nav container in class header: Pads content 15 pixels from header's top border, creates 20 pixel space on right side of element, places element on right side,
+prioritizes font based on browser prefences, and sets font-size to 20 pixels. */
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* For unordered list in nav container in class header: removes list style type. */
+.header nav ul {
+    list-style-type: none;
+}
+
+/* Unordered list in nav container in header class: sets display property to in-line block, and creates 25 pixel space on left side of element*/
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Sets anchor tags to color white, and removes text decoration lines. */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Sets paragraph font-size to 16 pixels. */
+p {
+    font-size: 16px;
+}
+
+/* In hero class element: sets element height to 800 pixels, sets element's width to 100%, creates 25 pixel space on bottom of element,
+sets background image, sets background image to fill all space, and centers background image. */
+.hero {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/binary-sunset.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* In float-left class element: places element on left side, and creates 25 pixel space on right side of element. */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* In float-right class element: places element on right side, and creates 25 pixel space on left side of element. */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* In content class element: sets elements width to 75%, sets display property to in-line block, and creates 20 pixel space on left side of element. */
+.content {
+    width: 100%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* In element with class about-me: creates 20 pixel space below preceeding vertical element, pads content 50 pixels from border, 
+sets element height to 300 pixels, prioritizes font based on browser preferences, sets background color to french-blue, and text color to white. */
+.about-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Class about-me-title */
+.about-me-title {
+    float: left;
+    width: 20%;
+    margin-bottom: 50px;
+    padding: 50px;
+    height: 100px;
+    border-right: 5px solid red;
+    color: #ffffff;
+}
+/* Class about-me-content */
+.about-me-content {
+    display: block;
+    width: 10%;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 10px;
+    color: #ffffff;
+/* In element with class work: creates 20 pixel space below preceeding vertical element, pads content 50 pixels from border, 
+sets element height to 300 pixels, prioritizes font based on browser preferences, sets background color to french-blue, and text color to white. */
+.work {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* In element with class contact-me: creates 20 pixel space below preceeding vertical element, pads content 50 pixels from border, 
+sets element height to 300 pixels, prioritizes font based on browser preferences, sets background color to french-blue, and text color to white. */
+.contact-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* In images contained within about-me class element: sets max height to 200 pixels. */
+.about-me img {
+    max-height: 200px;
+}
+/* In images contained within work class element: sets max height to 200 pixels. */
+.work img {
+    max-height: 200px;
+}
+/* In images contained within contact-me class element: sets max height to 200 pixels. */
+.contact-me img {
+    max-height: 200px;
+}
+/* In h2 header within about-me class element: creates 20 pixel space below preceeding vertical element, and 36 pixel font size. */
+.about-me h2 {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+/* In h2 header within work class element: creates 20 pixel space between preceeding vertical element, and 36 pixel font size. */
+.work h2 {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+/* In h2 header within contact-me class element: creates 20 pixel space between preceeding vertical element, and 36 pixel font size. */
+.contact-me h2 {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+/* In footers: Pads content 30 pixels from footer's border, stays below float elements, prioritizes font based on browser prefences, and aligns text to the center. */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* For h2 headers within footers: 20 pixel font size. */
+.footer h2 {
+    font-size: 20px;
+}
