@@ -64,9 +64,9 @@ p {
     font-size: 16px;
 }
 
-/* In hero class element: sets element height to 800 pixels, sets element's width to 100%, creates 25 pixel space on bottom of element,
+/* In banner class element: sets element height to 400 pixels, sets element's width to 100%, creates 25 pixel space on bottom of element,
 sets background image, sets background image to fill all space, and centers background image. */
-.hero {
+.banner {
     height: 400px;
     width: 100%;
     margin-bottom: 25px;
@@ -87,7 +87,7 @@ sets background image, sets background image to fill all space, and centers back
     margin-left: 25px;
 }
 
-/* In content class element: sets elements width to 75%, sets display property to in-line block, and creates 20 pixel space on left side of element. */
+/* In content class element: sets elements width to 100%, sets display property to in-line block, and creates 20 pixel space on left side of element. */
 .content {
     width: 100%;
     display: inline-block;
@@ -107,22 +107,24 @@ sets element height to 300 pixels, prioritizes font based on browser preferences
 }
 /* Class about-me-title */
 .about-me-title {
+    text-align: center;
     float: left;
     width: 20%;
+    height: 100%;
     margin-bottom: 50px;
-    padding: 50px;
-    height: 100px;
+    padding: 0px 20px 0px 0px;
     border-right: 5px solid red;
     color: #ffffff;
 }
 /* Class about-me-content */
 .about-me-content {
-    display: block;
-    width: 10%;
-    margin-bottom: 10px;
-    padding: 10px;
-    height: 10px;
+    clear: none;
+    display: inline-block;
+    padding-left: 20px;
+    font-size: 32px;
+    width: 60%;
     color: #ffffff;
+}
 /* In element with class work: creates 20 pixel space below preceeding vertical element, pads content 50 pixels from border, 
 sets element height to 300 pixels, prioritizes font based on browser preferences, sets background color to french-blue, and text color to white. */
 .work {
@@ -146,7 +148,7 @@ sets element height to 300 pixels, prioritizes font based on browser preferences
 }
 /* In images contained within about-me class element: sets max height to 200 pixels. */
 .about-me img {
-    max-height: 200px;
+    height: 100%;
 }
 /* In images contained within work class element: sets max height to 200 pixels. */
 .work img {

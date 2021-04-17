@@ -1,6 +1,6 @@
-# 01-homework
+# 02-homework
 
-Title: Horiseon Social Solution Services, Inc.
+Title: Portfolio for Joe Sumis
 
 The Horiseon webpage contains a title, header image, navigation bar, images showing services provided, an aside with additional services, and a footer.
 
