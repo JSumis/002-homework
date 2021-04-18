@@ -2,9 +2,9 @@
 
 Title: Portfolio for Joe Sumis
 
-The Horiseon webpage contains a title, header image, navigation bar, images showing services provided, an aside with additional services, and a footer.
+This protfolio webpage contains a title, header with navbar with links that scroll smoothly, and link to sample resume.and a footer.
 
 
 <img src="./assets/images/screencap.jpg" alt="screencap from finished live webpage" />
 
-https://jsumis.github.io/01-homework/
+https://jsumis.github.io/02-homework/
