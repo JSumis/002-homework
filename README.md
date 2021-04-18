@@ -7,4 +7,4 @@ This protfolio webpage contains a title, header with navbar with links that scro
 
 <img src="./assets/images/screencap.jpg" alt="screencap from finished live webpage" />
 
-https://jsumis.github.io/02-homework/
+https://jsumis.github.io/002-homework/
