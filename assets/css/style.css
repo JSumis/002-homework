@@ -158,44 +158,44 @@ sets element height to 300 pixels, prioritizes font based on browser preferences
 .work-project {
     /* clear: none; */
     display: inline-block;
-    padding-left: 20px;
     font-size: 32px;
     width: 100%;
     height: 700px;
     color: #ffffff;
-    background-color: rgb(94, 6, 18);
 }
 /* Class work-project smaller boxe 2 */
 .work-project-two {
     display:inline-block;
+    margin-bottom: 20px;
     float:left;
-    width: 45%;
+    width: 48%;
     height: 300px;
-    background-color: aqua;
+    background-color: rgb(26, 28, 173);
 }
 /* Class work project smaller box 3 */
 .work-project-three {
     display:inline-block;
     float: right;
-    width: 45%;
+    margin-bottom: 20px;
+    width: 48%;
     height: 300px;
-    background-color: aqua;
+    background-color: rgb(26, 28, 173);
 }
 /* Class work project smaller box 4 */
 .work-project-four {
     display:inline-block;
     float: left;
-    width: 45%;
+    width: 48%;
     height: 300px;
-    background-color: aqua;
+    background-color: rgb(26, 28, 173);
 }
 /* Class work project smaller box 5 */
 .work-project-five {
     display:inline-block;
     float: right;
-    width: 45%;
+    width: 48%;
     height: 300px;
-    background-color: aqua;
+    background-color: rgb(26, 28, 173);
 }
 /* In element with class contact-me: creates 20 pixel space below preceeding vertical element, pads content 50 pixels from border, 
 sets element height to 300 pixels, prioritizes font based on browser preferences, sets background color to french-blue, and text color to white. */
@@ -235,7 +235,8 @@ sets element height to 300 pixels, prioritizes font based on browser preferences
 }
 /* In images contained within work class element: sets max height to 200 pixels. */
 .work img {
-    max-height: 200px;
+    height: 100%;
+    width: 100%;
 }
 /* In images contained within contact-me class element: sets max height to 200 pixels. */
 .contact-me img {
